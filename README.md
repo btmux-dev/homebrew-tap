@@ -1,14 +1,15 @@
-# homebrew-btmux
+# homebrew-tap
 
-Homebrew tap for [btmux](https://github.com/buntec/btmux), a browser-based tmux.
+Homebrew tap for [btmux](https://github.com/btmux-dev/btmux), a terminal
+emulator and tmux-style session manager. See the
+[docs](https://btmux-dev.github.io/btmux/start/installation/) for more.
 
 ```sh
-brew install buntec/btmux/btmux          # server/CLI (macOS arm64, Linux)
-brew install --cask buntec/btmux/btmux   # desktop app (macOS arm64)
+brew install --cask btmux-dev/tap/btmux   # desktop app (Apple Silicon macOS)
+brew install btmux-dev/tap/btmux          # server and CLI (Apple Silicon macOS, Linux)
 ```
 
-The desktop app is ad-hoc signed, not notarized; the cask clears its quarantine
-attribute on install.
+The desktop app is signed and notarized.
 
-Formula and cask are updated automatically by the btmux release workflow via
-`scripts/update-homebrew-tap.sh`.
+The btmux release workflow updates the formula and cask with
+[`scripts/update-homebrew-tap.sh`](https://github.com/btmux-dev/btmux/blob/main/scripts/update-homebrew-tap.sh).
