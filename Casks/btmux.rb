@@ -1,6 +1,6 @@
 cask "btmux" do
-  version "0.0.211"
-  sha256 "cbd1d5c25956559c05df990142a16b2cf3b052445c235e534e1ab4673fbfc697"
+  version "0.0.212"
+  sha256 "b1ea1561998949bfe8aac06a3725c75b0fbd12fd1154c29bff3c4a25b26efde6"
 
   url "https://github.com/btmux-dev/btmux/releases/download/v#{version}/btmux-desktop-aarch64-apple-darwin.zip"
   name "btmux"
