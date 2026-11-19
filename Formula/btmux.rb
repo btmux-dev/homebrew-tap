@@ -1,23 +1,23 @@
 class Btmux < Formula
-  desc "Browser-based tmux"
+  desc "Persistent terminal workspace for desktop, browser, and mobile"
   homepage "https://github.com/btmux-dev/btmux"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.213/btmux-aarch64-apple-darwin"
-      sha256 "fd8498229b2e47e1d6352838de70b807e40be2ce657dfc59a102938a6b229d81"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.214/btmux-aarch64-apple-darwin"
+      sha256 "692b071147e67f8854eb711715b5c49b962f08555741d0398a1daac2af3cc78e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.213/btmux-aarch64-unknown-linux-gnu"
-      sha256 "d5ecb886d723585c9e54ecca0872f523000160e8d24d5bcda15dc1ac89443425"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.214/btmux-aarch64-unknown-linux-gnu"
+      sha256 "493c68d2e6edb1467b48b2868a907a36dedca2eab82f42cfee8e98b2893b7e61"
     end
     on_intel do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.213/btmux-x86_64-unknown-linux-gnu"
-      sha256 "0c3f1e1c1659d794c0d35b14edbb958f746b41aafa19284e868c6b086bb8d49d"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.214/btmux-x86_64-unknown-linux-gnu"
+      sha256 "36d9ff3a2d6c56c09a75f9865f9dde0e1f5db2bda6ef97f5aada9e01085df3ee"
     end
   end
 
