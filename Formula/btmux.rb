@@ -5,19 +5,19 @@ class Btmux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.225/btmux-aarch64-apple-darwin"
-      sha256 "5756395791d6a0f40d27780698ef6a1e5202b261aaf7ef796056cbf89f30f21b"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.226/btmux-aarch64-apple-darwin"
+      sha256 "d698192d34b465a2bbe0838fcea08b28d90b170c150ac81aef5c660dbcc8a96f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.225/btmux-aarch64-unknown-linux-gnu"
-      sha256 "ac3bef7021c8fa47514536bd698ee6e3d092b6ff7ca463a1f74b0ee4def0bd44"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.226/btmux-aarch64-unknown-linux-gnu"
+      sha256 "3a0dec28b7694674595090b6b7374603fe47eb95b6f19a18e42d64303bbf33d8"
     end
     on_intel do
-      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.225/btmux-x86_64-unknown-linux-gnu"
-      sha256 "b2ffcc03e512c201ff40efc91ed4809ca7bacf84375ef7dbc71204ed88e43d3c"
+      url "https://github.com/btmux-dev/btmux/releases/download/v0.0.226/btmux-x86_64-unknown-linux-gnu"
+      sha256 "380c789e65f875784b7b7506a97da790b126f1169349cb188ebbaf0b9f21ffee"
     end
   end
 
